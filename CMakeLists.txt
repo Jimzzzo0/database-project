@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(WorkSafe LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+find_package(Crow CONFIG REQUIRED)
+find_package(PostgreSQL REQUIRED)
+add_executable(worksafe backend/main.cpp)
+target_link_libraries(worksafe PRIVATE Crow::Crow PostgreSQL::PostgreSQL)

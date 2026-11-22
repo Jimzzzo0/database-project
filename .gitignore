@@ -1,0 +1,66 @@
+
+# CMake build files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# VS Code personal settings
+.vscode/*
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database local files
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# CSV files
+*.csv
+
+# Allow the prepared public dataset
+!data/
+!data/*.csv
+
+# Build files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/

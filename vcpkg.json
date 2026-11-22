@@ -1,0 +1,8 @@
+{
+  "name": "worksafe",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "crow",
+    "libpq"
+  ]
+}
